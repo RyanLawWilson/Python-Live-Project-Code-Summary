@@ -1,0 +1,30 @@
+# Shows the page used to edit the information for an amiibo.
+def amiibo_edit(request, pk):
+    print("\n\n\n\n\n\nEntered the edit View!\n\n\n\n\n\n")
+
+    pk = int(pk)
+
+    # Get the selected amiibo using the primary key.
+    amiibo = get_object_or_404(AmiiboFigure, pk=pk)
+
+    # If there was a POST sent here, update the amiibo information
+    if request.method == "POST":
+        # Initialize the form with the Amiibo's current information
+        form = AmiiboFigureForm(request.POST, instance=amiibo)
+
+        # IF the form is valid, save it to the database and return to your collection
+        if form.is_valid():
+            # Once the form is submitted and valid, overwrite the information in amiibo and update the DB.
+            amiibo = form.save(commit=False)
+            amiibo.save()
+
+            amiibos = AmiiboFigure.AmiiboFigurines.all()
+
+            context = {
+                'amiibos': amiibos,
+                'AmiiboUpdateMessage': "{} was edited!".format(amiibo),
+            }
+
+            return render(request, 'Amiibo/amiibo_db.html', context)
+    else:
+        form = AmiiboFigureForm(instance=amiibo)

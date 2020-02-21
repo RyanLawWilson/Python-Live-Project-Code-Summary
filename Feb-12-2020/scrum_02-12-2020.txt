@@ -1,0 +1,8 @@
+What did you do yesterday?
+Yesterday I completed story #1 and pushed it.
+
+What will you do today?
+Today I will complete story #2.  I probably won't get to story #3 today.
+
+Are there any impediments in your way?
+Nothing in particular, still just trying to move around in Django.
