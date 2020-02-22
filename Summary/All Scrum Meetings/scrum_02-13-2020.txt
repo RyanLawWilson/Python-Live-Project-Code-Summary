@@ -1,0 +1,8 @@
+What did you do yesterday?
+I completed story #2 - So I have a working database that the user can add to.  I also started on story #3 - I'm figuring out how I want to display the database information.
+
+What will you do today?
+I'll finish off story #3 today and start on story #4.
+
+Are there any impediments in your way?
+No impedements in my way right now.

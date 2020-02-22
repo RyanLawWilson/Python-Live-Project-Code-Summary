@@ -1,0 +1,8 @@
+What did you do on Yesterday?
+Yesterday I completed story 7b finishing the Data Scraping.  I did forget some things that I would like to add.  I forget to make it so that when someone clicks on the article, it actually goes to the article.
+
+What will you do today?
+So, today I will add that in, optimize my data scraping view and add some JavaScript which I think what story 8 says to do.
+
+Are there any roadblocks in your way?
+This is my second Friday.  I've collected a lot of code snippets.

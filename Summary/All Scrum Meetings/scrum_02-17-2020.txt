@@ -1,0 +1,8 @@
+What did you do on Friday?
+On Friday, I spent some time building the modal used to delete a record from my database for story #5.  This morning I finished the editing part of story #5.
+
+What will you do today?
+Today I will complete story #6a to get my API going.  I've looked at it a bit and it doesn't seem too bad so if I may start on 7a if I have time.
+
+Are there any impediments in your way?
+No roadblocks right now.

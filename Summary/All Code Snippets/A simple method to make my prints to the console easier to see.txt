@@ -1,0 +1,3 @@
+# Just a quick way to see my prints in the console
+def pt(s):
+    print(">>> {}\n".format(s))
